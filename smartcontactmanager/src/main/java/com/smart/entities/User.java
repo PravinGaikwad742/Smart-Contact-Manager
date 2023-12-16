@@ -1,6 +1,6 @@
 package com.smart.entities;
 
-import java.util.ArrayList;    
+import java.util.ArrayList;     
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -16,16 +16,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 
-//import jakarta.persistence.CascadeType;
-//import jakarta.persistence.Column;
-//import jakarta.persistence.Entity;
-//import jakarta.persistence.FetchType;
-//import jakarta.persistence.GeneratedValue;
-//import jakarta.persistence.GenerationType;
-//import jakarta.persistence.Id;
-//import jakarta.persistence.OneToMany;
-//import jakarta.persistence.Table;
-//import jakarta.validation.constraints.Email;
+
 
 
 

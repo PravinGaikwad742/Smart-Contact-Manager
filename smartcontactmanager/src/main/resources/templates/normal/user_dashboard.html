@@ -1,10 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+th:replace="normal/base::layout(~{::section})"
+>
 <head>
 	<meta charset="UTF-8" />
-	<title>Dashboard</title>
+	<title>Document</title>
 </head>
 <body>
-	<h1>This is dashboard Page......</h1>
+	<section>
+		<h1>This is Private DashBoard Page</h1>
+		<!--xmlns:th="http://www.thymeleaf.org" th:fragment="layout(content)"
+ <div th:replace="${content}"></div>-->
+ 	<!-- <a href="home.html">Home</a> -->
+	</section>
+
 </body>
 </html>
